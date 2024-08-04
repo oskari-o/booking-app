@@ -1,10 +1,6 @@
 import streamlit as st
 import os
-from dotenv import load_dotenv
 import json
-
-
-load_dotenv()
 
 from google.cloud import firestore
 login_elements = st.empty()

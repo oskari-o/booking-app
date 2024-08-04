@@ -1,5 +1,8 @@
 booking-app-95f39-firebase-adminsdk-gdmnh-251ee121fc.json
+booking-app-95f39-firebase-adminsdk-gdmnh-5768f9ff5a.json
 
 .env
 
 venv/
+
+.streamlit/secrets.toml

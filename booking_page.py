@@ -4,9 +4,9 @@ import json
 
 from google.cloud import firestore
 
-service_account = json.loads(os.environ["FIREBASE_SERVICE_ACCOUNT"])
+service_account_info = json.loads(os.getenv("FIREBASE_SERVICE_ACCOUNT"))
 
-db = firestore.Client.from_service_account_info(service_account)
+db = firestore.Client.from_service_account_info(service_account_info)
 
 submitted = st.session_state.get("submitted", False)
 
